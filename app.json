@@ -1,12 +1,20 @@
 {
-  "pages":[
+  "pages": [
+    "pages/newInfo/newInfo",
+    "pages/join/join",
+    "pages/login/login",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/person/person",
+    "pages/company/company",
+    "pages/brokerage/brokerage",
+    "pages/bounty/bounty",
+    "pages/hisclew/hisclew",
+    "pages/invitation/invitation"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "极联众包",
+    "navigationBarTextStyle": "black"
   }
 }

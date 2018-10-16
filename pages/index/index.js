@@ -4,16 +4,10 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    firstEnter:false,
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
-  },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
@@ -43,6 +37,12 @@ Page({
       })
     }
   },
+  /*申请加入*/
+  applyJoin() {
+    wx.navigateTo({
+      url: '/pages/login/login'
+    })
+  },
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
@@ -52,3 +52,4 @@ Page({
     })
   }
 })
+

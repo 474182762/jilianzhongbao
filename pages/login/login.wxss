@@ -1,0 +1,65 @@
+/* pages/login/login.wxss */
+.login{
+  padding: 0 40rpx;
+}
+.login_type{
+  height: 2rpx;
+  width: 100%;
+  padding: 0 4prpx;
+  background-color: #d8d8d8;
+  position: relative;
+  top:16rpx;
+}
+.login_type text{
+  display: block;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size:24rpx;
+  color:#a2a3a7;
+  background: #fff;
+  z-index: 2;
+  padding:0 10rpx;
+}
+.login .login_list{
+  padding-top: 88rpx;
+}
+.login_list .wx_user{
+  font-size:32rpx;
+  color:#ffffff;
+  text-align:center;
+  background:#0b99fb;
+  border-radius:6px;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 30rpx;
+}
+.login_list .wx_user image{
+  width: 36rpx;
+  height: 36rpx;
+  margin: 0 10rpx;
+}
+.login_list .iphone_user{
+  font-size:32rpx;
+  color:#0b99fb;
+  text-align:center;
+  background:#ffffff;
+  border-radius:6px;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border:2rpx solid #0b99fb;
+
+}
+.login_list .iphone_user text{
+   
+}
+.login_list .iphone_user image{
+  width: 36rpx;
+  height: 36rpx;
+  margin: 0 10rpx;
+}

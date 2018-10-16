@@ -1,0 +1,54 @@
+/* pages/newInfo/newInfo.wxss */
+
+.new_info{
+  padding: 30rpx;
+}
+.new_info .new_info_from{
+
+}
+.new_info_from .info_warp{
+  font-size:16px;
+  color:#0c1b37;
+  margin-bottom: 40rpx;
+}
+.new_info_from .info_warp label{
+  display: block;
+  margin-bottom: 20rpx;
+}
+.new_info_from .info_warp label text{
+  font-size:16px;
+  color:#f04223;
+}
+.new_info_from .info_warp input{
+  height: 98rpx;
+  line-height: 98rpx;
+  background:#f9f9f9;
+  border:2rpx solid #d8d8d8;
+  border-radius:4px;
+  padding-left: 40rpx;
+}
+.new_info_from .info_warp textarea{
+  display: block;
+  width: 100%;
+  background:#f9f9f9;
+  border:2rpx solid #d8d8d8;
+  border-radius:4px;
+  padding-left: 40rpx;
+  box-sizing: border-box;
+}
+.new_info_from .up_img{
+  width: 216rpx;
+  height: 216rpx;
+}
+.new_info_from .up_img image{
+  width: 100%;
+  height: 100%;
+}
+.new_info_from .data_btn{
+  background:#0b99fb;
+  border-radius:12rpx;
+  font-size:32rpx;
+  color:#ffffff;
+  text-align:center;
+  margin-top: 122rpx;
+}

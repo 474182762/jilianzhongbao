@@ -1,0 +1,14 @@
+<!--pages/login/login.wxml-->
+<view class='login'>
+  <view class='login_type'>
+    <text>选择登录方式</text>
+  </view>
+  <view class='login_list'>
+    <button class='wx_user' open-type="openSetting"><image src='../../image/login1.png'></image>微信用户快速登录</button>
+    <view class='iphone_user' bindtap='joinPage'>
+      <image src='../../image/login2.png'></image>
+      <text>手机号码登录/注册</text>
+    </view>
+  </view>
+
+</view>

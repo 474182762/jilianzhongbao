@@ -1,0 +1,53 @@
+/* pages/join/join.wxss */
+
+.join{
+  height: 100%;
+  padding: 0 30rpx;
+  background-color: #f1f0f5;
+  overflow: hidden;
+}
+.join .join_from{
+  display: block;
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding: 0 40rpx;
+  border-radius: 20rpx;
+}
+.join .info_warp{
+  display: flex;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-size:16px;
+  color:#0c1b37;
+  border-bottom: 2rpx solid #d8d8d8;
+}
+.join .info_warp:last-child{
+  border-bottom:none;
+}
+.join .info_warp label{
+
+}
+.join .info_warp label text{
+  font-size:16px;
+  color:#f04223;
+}
+.join .info_warp input{
+  flex: 1;
+  -webkit-flex:1;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding-left: 30rpx;
+}
+.join .info_warp .code{
+  font-size:15px;
+  color:#0b99fb;
+  cursor: pointer;
+}
+.join .data_btn{
+  background:#0b99fb;
+  border-radius:12rpx;
+  font-size:32rpx;
+  color:#ffffff;
+  text-align:center;
+  margin-top: 122rpx;
+}

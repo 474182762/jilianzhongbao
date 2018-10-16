@@ -1,0 +1,15 @@
+<!--pages/join/join.wxml-->
+<view class='join'>
+  <form bindsubmit="formdataSubmit" class='join_from'>
+      <view class='info_warp'>
+        <label><text>*</text>手机号</label>
+        <input name="userPhone" type="number" placeholder="请填写手机号" />
+      </view>
+      <view class='info_warp'>
+        <label><text>*</text>验证码</label>
+        <input name="phonecode" type="number" placeholder="请填写验证码" />
+        <text class='code'>发送验证码</text>
+      </view>
+    </form>
+    <button formType="submit" class='data_btn'>提交申请</button>
+</view>

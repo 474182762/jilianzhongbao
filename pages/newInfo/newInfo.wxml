@@ -1,0 +1,29 @@
+<!--pages/newInfo/newInfo.wxml-->
+<view class='new_info'>
+ <form bindsubmit="formdataSubmit" class='new_info_from'>
+    <view class='info_warp'>
+      <label><text>*</text>项目名称</label>
+      <input name="userPhone" type="number" placeholder="请输入项目名称" />
+    </view>
+    <view class='info_warp'>
+      <label><text>*</text>项目需求</label>
+      <textarea name="userPhone" type="number" placeholder="请描述客户的项目需求" />
+    </view>
+    <view class='info_warp'>
+      <label><text>*</text>需求方联系人</label>
+      <input name="userPhone" type="number" placeholder="请输入项目联系人" />
+    </view>
+    <view class='info_warp'>
+      <label><text>*</text>联系方式</label>
+      <input name="userPhone" type="number" placeholder="请填写联系人手机号" />
+    </view>
+     <view class='info_warp'>
+      <label>图片说明</label>
+      <view class='up_img'>
+        <image src='../../image/new1.png'></image>
+     </view>
+      <button formType="submit" class='data_btn'>提交</button>
+    </view>
+ </form>
+</view>
+
