@@ -1,4 +1,4 @@
-// pages/invitation/invitation.js
+// pages/share/share.js
 Page({
 
   /**
@@ -12,9 +12,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.setNavigationBarTitle({
-      title: '填写邀请码',
-    })
+      wx.setNavigationBarTitle({
+        title: '邀请码',
+      })
   },
 
   /**

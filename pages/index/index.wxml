@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view class='index_first' wx:if='{{!firstEnter}}'>
+  <view class='index_first' wx:if='{{firstEnter}}'>
     <view class='top'>
       <image src='../../image/index1.png'></image>
       <text>众包营销介绍</text>
@@ -18,7 +18,52 @@
 
   </view>
   <view class='index'>
-
+      <view class='top'>
+        <image class='top_bg' src='../../image/index3.png'></image>
+        <view class='user_info'>
+            <image src='../../image/index4.png'></image>
+            <text class='name'>Martin Liu</text>
+            <view class='approve'>
+              <image src='../../image/index5.png'></image>
+              <text>未认证, 去认证> </text>
+            </view>
+            <view class='money_list'>
+              <view class='my_commission list'>
+                <text class='number'>51860</text>
+                <view class='type'>
+                    <image src='../../image/index7.png'></image>
+                    <text >我的佣金(¥)</text>
+                </view>
+               
+              </view>
+              <view class='my_bounty list'>
+                <text class='number'>51860</text>
+                <view class='type'>
+                  <image src='../../image/index8.png'></image>
+                  <text >我的奖励金(¥)</text>
+                </view>
+              </view>
+            </view>
+        </view>
+      </view>
+      <view class='conment_list'>
+        <view class='list'>
+          <image src='../../image/index9.png'></image>
+          <text>历史线索</text>
+        </view>
+        <view class='list'>
+          <image src='../../image/index10.png'></image>
+          <text>提交新线索</text>
+        </view>
+        <view class='list'>
+          <image src='../../image/index11.png'></image>
+          <text>填写邀请码</text>
+        </view>
+        <view class='list'>
+          <image src='../../image/index12.png'></image>
+          <text>分享给好友</text>
+        </view>
+      </view>
   </view>
 
   <!-- <view class="userinfo">

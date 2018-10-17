@@ -1,1 +1,44 @@
 /* pages/invitation/invitation.wxss */
+.invitation{
+  height: 100%;
+  padding: 0 30rpx;
+  background-color: #f1f0f5;
+  overflow: hidden;
+}
+.invitation_from{
+  display: block;
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding: 0 40rpx;
+  border-radius: 20rpx;
+  box-shadow:0 4rpx 24rpx 0 rgba(215,215,215,0.50);
+}
+.invitation_from .info_warp{
+  display: flex;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-size:16px;
+  color:#0c1b37;
+}
+.invitation_from .info_warp input{
+  flex: 1;
+  -webkit-flex:1;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding-left: 30rpx;
+}
+
+.invitation .data_btn{
+  background:#0b99fb;
+  border-radius:12rpx;
+  font-size:32rpx;
+  color:#ffffff;
+  text-align:center;
+  margin-top: 122rpx;
+}
+.invitation .jump_btn{
+  background:#fff;
+  color:#0b99fb;
+  border: 2rpx solid #0b99fb;
+  margin-top: 30rpx;
+}

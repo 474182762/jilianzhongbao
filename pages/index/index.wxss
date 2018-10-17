@@ -52,3 +52,124 @@
   color: #fff;
   margin-top: 100rpx;
 }
+
+/*非首次进入*/
+
+.index{
+
+}
+.index .top{
+  position: relative
+}
+.index .top .top_bg{
+  display: block;
+  width: 100%;
+}
+.index .top .user_info{
+  width: 100%;
+  position: absolute;
+  top:0;
+  z-index: 2;
+}
+.index .user_info image{
+  display: block;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  border: 4rpx solid #ffffff;
+  margin: 54rpx auto 20rpx;
+}
+.index .user_info .name{
+  display: block;
+  height: 80rpx;
+  color: #fff;
+  line-height: 80rpx;
+  font-size: 56rpx;
+  text-align: center;
+}
+.index .user_info .approve{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .user_info .approve image{
+  width: 24rpx;
+  height: 24rpx;
+  border:none;
+  margin: 0 5rpx;
+}
+.index .user_info .approve text {
+  font-size:10px;
+  color:#ffffff;
+}
+.index .user_info .money_list{
+  width:662rpx;
+  height:200rpx;
+  margin: 36rpx auto 0;
+  background:#ffffff;
+  box-shadow:0 4rpx 40rpx 0 rgba(215,215,215,0.60);
+  border-radius:20rpx;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .user_info .money_list .list{
+  flex: 1;
+  -webkit-flex:1;
+}
+.index .money_list .list text{
+  
+  font-size:72rpx;
+  color:#0c1b37;
+  text-align: center;
+}
+.index .money_list .list .number{
+  width: 100%; 
+  display: block;
+}
+.index .money_list .list .type{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .money_list .list .type image{
+  width: 10rpx;
+  height: 10rpx;
+  margin: 0;
+}
+.index .money_list .list .type text{
+
+  font-size:26rpx;
+  color:#a2a3a7;
+}
+.index .conment_list{
+  padding-top: 160rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+}
+.conment_list .list{
+  width:316rpx;
+  height:236rpx;
+  background:#f9f9f9;
+  border-radius:10px;
+  margin-bottom: 30rpx;
+
+}
+.conment_list .list image{
+  width: 98rpx;
+  height: 98rpx;
+  display: block;
+  margin:44rpx auto 4rpx;
+}
+.conment_list .list text{
+  display: block;
+  text-align: center;
+  font-size:28rpx;
+  color:#0c1b37;
+}

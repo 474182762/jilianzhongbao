@@ -1,0 +1,91 @@
+/* pages/mylower/mylower.wxss */
+.mylower{
+  height: 100%;
+  background-color: #f1f0f5;
+  overflow: hidden;
+}
+.mylower .tab_header{
+  display: flex;
+  display: -webkit-flex;
+  background-color: #fff;
+}
+.mylower .tab_header text{
+  display: block;
+  flex: 1;
+  -webkit-flex:1;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align:center;
+  font-size:30rpx;
+  color:#0c1b37;
+
+}
+.mylower .tab_header .active{
+  color:#0b99fb;
+  position: relative;
+}
+.mylower .tab_header .active:after{
+  content: '';
+  display: block;
+  background:#0b99fb;
+  border-radius:2rpx;
+  width:40rpx;
+  height:6rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom:0;
+}
+.mylower .tab_con{
+  padding: 0 40rpx;
+   background-color: #fff;
+   margin-top: 30rpx;
+}
+.lower_list{
+  padding: 40rpx 0;
+  border-bottom:2rpx solid #d8d8d8;
+  display: flex;
+  display: -webkit-flex;
+}
+.lower_list text{
+  display: block;
+}
+.lower_list .left,
+.lower_list .right{
+  flex: 1;
+  -webkit-flex:1;
+}
+.lower_list .left text{
+  font-size:36rpx;
+  color:#0c1b37;
+}
+.lower_list .left text:nth-of-type(2){
+  font-size:28rpx;
+  color:#a2a3a7;
+}
+.lower_list .right{
+  text-align: right;
+}
+.lower_list .right .money{
+  display: flex;
+  display: -webkit-flex;
+  justify-content:flex-end;
+}
+.lower_list .right text{
+   text-align: right;
+}
+.lower_list .right .money text:nth-of-type(1){
+  font-size:24rpx;
+  color:#f04223;
+}
+.lower_list .right .money text:nth-of-type(2){
+  font-size:36rpx;
+  color:#f04223;
+}
+.lower_list .right .earnings{
+  display: inline;
+  font-size:20rpx;
+  color:#f6a55f;
+  padding: 6rpx 20rpx;
+  background:#fef6ef;
+}

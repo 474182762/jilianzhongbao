@@ -1,0 +1,22 @@
+<!--pages/mylower/mylower.wxml-->
+<!-- 我的下级 -->
+<view class='mylower'>
+    <view class='tab_header'>
+      <text class='active'>第二级</text>
+      <text>第三级</text>
+    </view>
+    <view class='tab_con'>
+      <view class='tab_one'>
+        <view class='lower_list'>
+            <view class='left'>
+              <text>刘俊凯</text>
+              <text>加入时间：2018-09-13</text>
+            </view>
+            <view class='right'>
+              <view class='money'><text>¥</text><text>200.00</text></view>
+              <text class='earnings'>给我的收益</text>
+            </view>
+        </view>
+      </view>
+    </view>
+</view>

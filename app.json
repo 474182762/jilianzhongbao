@@ -1,15 +1,18 @@
 {
   "pages": [
+    "pages/mylower/mylower",
+    "pages/share/share",
+    "pages/invitation/invitation",
+    "pages/hisclew/hisclew",
+    "pages/index/index",
+    "pages/login/login",
     "pages/newInfo/newInfo",
     "pages/join/join",
-    "pages/login/login",
-    "pages/index/index",
     "pages/person/person",
     "pages/company/company",
     "pages/brokerage/brokerage",
-    "pages/bounty/bounty",
-    "pages/hisclew/hisclew",
-    "pages/invitation/invitation"
+    "pages/bounty/bounty"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

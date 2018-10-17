@@ -1,2 +1,19 @@
 <!--pages/hisclew/hisclew.wxml-->
-<text>pages/hisclew/hisclew.wxml</text>
+<!-- 历史线索 -->
+<view class='his_clew'>
+  <view class='list' wx:for='{{hisclewList}}' wx:key="index">
+      <view class='top'>
+        <text>{{item.company}}</text>
+        <text>{{item.time}}</text>
+      </view>
+      <view class='middle'>
+        <text>{{item.des}}</text>
+      </view>
+      <view class='bottom'>
+        <view class='img_list'>
+            <image  wx:for='{{item.img}}' wx:key="index" src='{{item}}'></image>
+        </view>
+        <text>{{item.type}}</text>
+      </view>
+  </view>
+</view>

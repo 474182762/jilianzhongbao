@@ -1,4 +1,4 @@
-// pages/invitation/invitation.js
+// pages/mylower/mylower.js
 Page({
 
   /**
@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '填写邀请码',
+      title: '我的下级',
     })
   },
 

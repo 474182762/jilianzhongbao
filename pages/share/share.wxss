@@ -1,0 +1,41 @@
+/* pages/share/share.wxss */
+
+.share{
+
+}
+.share .share_bg{
+  display: block;
+  width: 414rpx;
+  height: 272rpx;
+  margin: 50rpx auto 40rpx;
+}
+.share .my_code{
+
+}
+.share .my_code text{
+  display: block;
+  text-align: center;
+}
+.share .my_code text:nth-of-type(1){
+  font-size:32rpx;
+  color:#0c1b37;
+  margin-bottom: 24rpx;
+}
+.share .my_code text:nth-of-type(2){
+  font-size:92rpx;
+  color:#ffaa08;
+  letter-spacing:4rpx;
+}
+.share .line{
+  margin: 20rpx auto 0;
+  width: 600rpx;
+  border-top: 2rpx dashed #d8d8d8;
+}
+.share  .qr_code{
+  width:400rpx;
+  height:400rpx;
+  background:#ffffff;
+  box-shadow:0 4rpx 40rpx 0 rgba(215,215,215,0.60);
+  border-radius:40rpx;
+  margin: 60rpx auto 0;
+}

@@ -5,6 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
+    hisclewList:[
+      {
+        'company':'香港捷运集团有限公司',
+        'time':'2018-09-22',
+        'des': 'orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismodbibendum laoreet.',
+        'img': ['../../image/index9.png', '../../image/index10.png','../../image/index11.png'],
+        'type':'有效线索'
+      },
+      {
+        'company': '香港捷运集团有限公司',
+        'time': '2018-09-22',
+        'des': 'orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismodbibendum laoreet.',
+        'img': ['../../image/index9.png', '../../image/index10.png', '../../image/index11.png'],
+        'type': '有效线索'
+      }
+    ]
 
   },
 
@@ -12,7 +28,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.setNavigationBarTitle({
+      title: '历史线索',
+    })
   },
 
   /**
