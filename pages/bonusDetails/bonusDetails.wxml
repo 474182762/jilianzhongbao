@@ -1,0 +1,20 @@
+<!--pages/bonusDetails/bonusDetails.wxml-->
+<!-- 奖励金明细列表 -->
+<view class='bonusDetails'>
+ <view class='list' wx:for='{{boundList}}' wx:key="index">
+      <view class='top'>
+        <text>{{item.company}}</text>
+        <text>{{item.time}}</text>
+      </view>
+      <view class='middle'>
+        <text>签单推荐人：{{item.orderman}}</text>
+      </view>
+      <view class='bottom'>
+        <view class='bottom_list' wx:for='{{item.moneylist}}' wx:key='index'>
+          <text class='number'>{{item.num}}</text>
+          <text class = 'type type_{{index}}'>{{item.type}}</text>
+        </view>
+      </view>
+  </view>
+</view>
+

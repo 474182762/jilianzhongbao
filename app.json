@@ -1,10 +1,13 @@
 {
   "pages": [
+    "pages/myCommission/myCommission",
+    "pages/ordered/ordered",
+    "pages/bonusDetails/bonusDetails",
+    "pages/index/index",
     "pages/mylower/mylower",
     "pages/share/share",
     "pages/invitation/invitation",
     "pages/hisclew/hisclew",
-    "pages/index/index",
     "pages/login/login",
     "pages/newInfo/newInfo",
     "pages/join/join",

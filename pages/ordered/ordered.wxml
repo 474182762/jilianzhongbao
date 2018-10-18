@@ -1,0 +1,19 @@
+<!--pages/ordered/ordered.wxml-->
+<!-- 已签单列表 -->
+<view class='orderDetails'>
+ <view class='list' wx:for='{{orderList}}' wx:key="index">
+      <view class='top'>
+        <text>{{item.company}}</text>
+        <text>{{item.time}}</text>
+      </view>
+      <view class='middle'>
+        <text>签单推荐人：{{item.orderman}}</text>
+      </view>
+      <view class='bottom'>
+        <view class='bottom_list' wx:for='{{item.moneylist}}' wx:key='index'>
+          <text class='number'>{{item.num}}</text>
+          <text class = 'type type_{{index}}'>{{item.type}}</text>
+        </view>
+      </view>
+  </view>
+</view>
