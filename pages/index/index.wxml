@@ -17,7 +17,7 @@
     </view>
 
   </view>
-  <view class='index'>
+  <view class='index' wx:else>
       <view class='top'>
         <image class='top_bg' src='../../image/index3.png'></image>
         <view class='user_info'>

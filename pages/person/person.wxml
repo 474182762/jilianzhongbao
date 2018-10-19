@@ -1,2 +1,38 @@
 <!--pages/person/person.wxml-->
-<text>pages/person/person.wxml</text>
+
+<!-- 个人认证 -->
+<view class='person'>
+  <form bindsubmit="formdataSubmit" class='person_from'>
+      <view class='info_warp'>
+        <label><text>*</text>证件号码</label>
+        <input name="userPhone" type="number" placeholder="请输入身份证号码" />
+      </view>
+      <view class='info_warp'>
+        <label><text>*</text>银行卡号</label>
+        <input name="userPhone" type="number" placeholder="请输入您的银行卡号" />
+      </view>
+      <view class='info_warp'>
+        <label><text>*</text>开户银行</label>
+        <input name="userPhone" type="number" placeholder="请输入您的开户银行" />
+      </view>
+      <view class='info_warp'>
+        <label><text>*</text>开户姓名</label>
+        <input name="userPhone" type="number" placeholder="请输入您的开户姓名" />
+      </view>
+    </form>
+    <view class='person_photo'>
+      <view class='title'><text>*</text>开户姓名<text>(正反面）</text></view>
+      <view class='photo_warp'>
+          <view class='left'>
+            <image src='../../image/person1.png'></image>
+          </view>
+          <view class='right'>
+            <image src='../../image/person2.png'></image>
+          </view>
+      </view>
+    </view>
+    <view class='person_btn'>
+      <button >提交</button>
+    </view>
+
+</view>

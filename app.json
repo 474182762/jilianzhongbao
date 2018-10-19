@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/company/company",
+    "pages/person/person",
     "pages/myCommission/myCommission",
     "pages/ordered/ordered",
     "pages/bonusDetails/bonusDetails",
-    "pages/index/index",
     "pages/mylower/mylower",
     "pages/share/share",
     "pages/invitation/invitation",
@@ -11,8 +13,6 @@
     "pages/login/login",
     "pages/newInfo/newInfo",
     "pages/join/join",
-    "pages/person/person",
-    "pages/company/company",
     "pages/brokerage/brokerage",
     "pages/bounty/bounty"
     

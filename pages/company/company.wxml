@@ -1,2 +1,30 @@
 <!--pages/company/company.wxml-->
-<text>pages/company/company.wxml</text>
+<!-- 公司认证 -->
+<view class='company'>
+  <form bindsubmit="formdataSubmit" class='company_from'>
+      <view class='info_warp'>
+        <label><text>*</text>对公银行账号</label>
+        <input name="userPhone" type="number" placeholder="请输入您的对公银行账号" />
+      </view>
+      <view class='info_warp'>
+        <label><text>*</text>开户银行</label>
+        <input name="userPhone" type="number" placeholder="请输入您的开户银行" />
+      </view>
+      <view class='info_warp'>
+        <label><text>*</text>开户姓名</label>
+        <input name="userPhone" type="number" placeholder="请输入您的开户姓名" />
+      </view>
+    </form>
+    <view class='company_photo'>
+      <view class='title'><text>*</text>上传营业执照</view>
+      <view class='photo_warp'>
+          <view class='left'>
+            <image src='../../image/company1.png'></image>
+          </view>
+      </view>
+    </view>
+    <view class='company_btn'>
+      <button >提交</button>
+    </view>
+
+</view>
