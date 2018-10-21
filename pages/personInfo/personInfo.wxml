@@ -1,0 +1,40 @@
+<!--pages/personInfo/personInfo.wxml-->
+<view class='person_info'>
+    <form bindsubmit="formdataSubmit" class='person_info_from'>
+      <view class='info_warp'>
+        <label>姓名</label>
+        <input name="userPhone" type="number" placeholder="请填写您的真实姓名" />
+      </view>
+      <view class='info_warp'>
+        <label>所在公司</label>
+        <input name="userPhone" type="number" placeholder="请填写您所在公司" />
+      </view>
+      <view class='info_warp'>
+        <label>手机号</label>
+        <input name="userPhone" type="number" placeholder="请输入您的开户银行" />
+      </view>
+      <view class='info_warp'>
+        <label>电子邮箱</label>
+        <input name="userPhone" type="number" placeholder="请填写您的邮箱地址" />
+      </view>
+      <view class='info_warp'>
+        <label>QQ号码</label>
+        <input name="userPhone" type="number" placeholder="请填写您的qq号" />
+      </view>
+      <view class='info_warp'>
+        <label>微信号</label>
+        <input name="userPhone" type="number" placeholder="请填写您的微信号" />
+      </view>
+      <view class='info_warp'>
+        <label>位置</label>
+        <input name="userPhone" type="number" placeholder="请填写您的邮箱地址" />
+      </view>
+      <view class='info_warp'>
+        <label>详细地址</label>
+        <input name="userPhone" type="number" placeholder="请填写您的详细地址" />
+      </view>
+    </form>
+    <view class='person_btn'>
+      <button >提交修改</button>
+    </view>
+</view>
