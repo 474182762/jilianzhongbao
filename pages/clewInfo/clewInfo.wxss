@@ -1,0 +1,43 @@
+/* pages/clewInfo/clewInfo.wxss */
+
+.clewInfo{
+  background-color: #f1f0f5;
+  overflow: hidden;
+}
+.clewInfo .warp{
+  background-color: #fff;
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+  height: 100%;
+  overflow: hidden;
+}
+.clewInfo .clew_type{
+  background:#eaf7f6;
+  border-radius:8rpx;
+  width:690rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  font-size:36rpx;
+  color:#2fb6aa;
+  text-align:center;
+  margin: 60rpx auto 50rpx;
+}
+.clewInfo .clew_contact .list{
+  display: flex;
+  justify-content: space-between;
+}
+.clewInfo .clew_contact .list text{
+  display: block;
+  flex: 1;
+  -webkit-flex:1;
+  height: 72rpx;
+  line-height: 72rpx;
+  font-size:32rpx;
+}
+.clewInfo .clew_contact .list .left{
+  color:#0c1b37;
+}
+.clewInfo .clew_contact .list .right{
+  color:#a2a3a7;
+  text-align: left;
+}

@@ -1,7 +1,8 @@
-{   
+{
   "pages": [
-    "pages/personInfo/personInfo",
     "pages/index/index",
+    "pages/clewInfo/clewInfo",
+    "pages/personInfo/personInfo",
     "pages/company/company",
     "pages/person/person",
     "pages/myCommission/myCommission",
@@ -16,7 +17,7 @@
     "pages/join/join",
     "pages/brokerage/brokerage",
     "pages/bounty/bounty"
-    
+  
   ],
   "window": {
     "backgroundTextStyle": "light",

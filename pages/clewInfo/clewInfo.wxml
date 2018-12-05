@@ -1,0 +1,27 @@
+<!--pages/clewInfo/clewInfo.wxml-->
+<!-- xiansuoxiangqing -->
+<view class='clewInfo'>
+  <view class='warp'>
+    <view class='clew_type'>
+      <text>正式线索</text>
+    </view>
+    <view class='clew_des'>
+    </view>
+    <view class='clew_contact'>
+      <view class='list'>
+        <text class='left'>需求方名称</text>
+        <text class='right'>香港捷运集团有限公司</text>
+      </view>
+      <view class='list'>
+        <text class='left'>需求方联系方式</text>
+        <text class='right'>+852-596636964</text>
+      </view>
+      <view class='list'>
+        <text class='left'>线索提交时间</text>
+        <text class='right'>2018-09-13</text>
+      </view>
+    </view>
+  </view>
+ 
+</view>
+
